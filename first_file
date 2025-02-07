@@ -1,4 +1,4 @@
-Data = ["Simon", "William", "Emil"]
+data = ["Simon", "William", "Emil"]
 
 # Find den person med det første forbogstav
 min_name = min(data)  # min() sammenligner alfabetisk
