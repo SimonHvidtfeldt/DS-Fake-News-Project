@@ -1,4 +1,18 @@
 import re 
+import nltk
+
+filepath = r"C:\Users\simon\news_sample.csv"
+
+def read_file(filepath):
+    try:
+        with open(filepath, "r", encoding="utf-8") as file:
+            return file.read()
+    except UnicodeDecodeError:
+        with open(filepath, "r", encoding="latin-1") as file:
+            return file.read()
+
+global file_content
+file_content = read_file(filepath)
 
 def clean_text(text):
 
