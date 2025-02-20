@@ -1,2 +1,2 @@
 # DS-Fake-News-Project
-Second year bachelor project in data science 
+First year bachelor project in data science 
